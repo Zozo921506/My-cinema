@@ -1,0 +1,131 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    color: blue;
+}
+
+nav, footer
+{
+    background-color: darkblue;
+    color: white;
+}
+
+#title
+{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+
+#footer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+#title a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a
+{
+    color: white;
+}
+
+#rank
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.red:hover, #sub:hover
+{
+    color: red;
+}
+
+.user
+{
+    margin-top: 2%;
+}
+
+.GOLD
+{
+    color: gold;
+}
+
+.flex
+{
+    display: flex;
+    gap: 1%;
+}
+
+.VIP
+{
+    color: red;
+}
+
+.Classic
+{
+    color: green;
+}
+
+.block
+{
+    display: block;
+}
+
+.DIAMOND
+{
+    color: aqua;
+}
+
+.pagination
+{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.pagination a 
+{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a:hover 
+{
+    background-color: #ddd;
+}
+
+@media screen and (min-width: 0px) and (max-width: 799px)
+{
+    ul
+    {
+        display: block;
+        justify-content: center;
+        padding: 0%;
+    }
+}
